@@ -1,0 +1,120 @@
+.requirements-section{
+  background-image: url('../../img/requirements-bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.requirements{
+  padding: 145px 0;
+}
+.requirements__subtitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #fff;
+}
+.requirements__title{
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  margin-bottom: 133px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.requirements__list{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.requirements-title{
+  width: 50%;
+  padding:20px;
+  border: 1px solid #323434;
+}
+.requirements-title__span{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  padding: 0 0 6px 0;
+  color: #FFB548;
+}
+.requirements-title__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: #fff;
+}
+.requirements-title--active{
+  width: 100% !important;
+}
+
+@media screen and (max-width:992px)  {
+  .requirements__subtitle{
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .requirements__title{
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 123px;
+  }
+  .requirements__list{
+    width: 60%;
+  }
+}
+@media screen and (max-width:768px)  {
+  .requirements__subtitle{
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .requirements__title{
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 103px;
+  }
+  .requirements__list{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:576px)  {
+  .requirements__subtitle{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .requirements__title{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 73px;
+  }
+  .requirements__list{
+    width: 100%;
+  }
+  .requirements-title__span{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .requirements-title__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
+
+
+
+
+
+

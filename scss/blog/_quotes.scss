@@ -1,0 +1,130 @@
+.quotes-section{
+  background-image: url('../../img/quotes-bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.quotes{
+  padding: 147px 0;
+}
+.quotes__subtitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.quotes__title{
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.quotes__text{
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 37px;
+}
+.quotes__link{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 19px 34px;
+  text-decoration: none;
+  color: #1A1917;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  display: inline-block;
+  // width: 100%;
+}
+.quotes__list{
+  list-style: none;
+  padding: 0;
+}
+.quotes-item{
+  padding: 12px;
+  background-color: #1a1b1c;
+  border-radius: 10px;
+}
+.quotes-item-activ{
+  width: 70%;
+  align-self: flex-end;
+}
+.quotes-item-activ-last{
+  width: 80%;
+  align-self: flex-end;
+}
+.quotes-item__img{
+  border-radius: 50%;
+  margin-right: 22px;
+  z-index: 299929299 !important;
+}
+.quotes-item__imgs{
+  position: relative;
+}
+.quotes-item__bgimg{
+  position: absolute;
+  left: 10px;
+  top: 0;
+  z-index: 1 !important;
+}
+
+.quotes-item__title{
+  margin: 0;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #ffb548;
+}
+.quotes-item__span{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #fff;
+  opacity: 0.5;
+}
+.bxl-twitter{
+  // display: flex;
+  // justify-content: flex-end;
+  // align-self: flex-end;
+  font-size: 26px;
+  color: #5f6061;
+}
+.quotes-item__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.quotes-item__date{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media screen and (max-width:576px) {
+  .quotes__info{
+    margin-bottom: 30px;
+  }
+  .quotes__link{
+    width: 100%;
+  }
+  .quotes-item-activ{
+    width: 100%;
+  }
+  .quotes-item-activ-last{
+    width: 100%;
+  }
+}
+
